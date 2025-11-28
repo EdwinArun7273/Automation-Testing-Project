@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="10" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-28T14:57:58 IST" name="Suite" finished-at="2025-11-28T15:01:19 IST" duration-ms="201234">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-11-28T14:57:58 IST" name="Test" finished-at="2025-11-28T15:01:19 IST" duration-ms="201167">
+      <class name="testrunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:57:58 IST" name="setUpClass" finished-at="2025-11-28T14:57:58 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:57:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:58:09 IST" duration-ms="10792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login functionality with valid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:58:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:58:19 IST" duration-ms="9442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login functionality with invalid username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:58:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:58:29 IST" duration-ms="10218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login functionality with invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:58:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:58:39 IST" duration-ms="9766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login functionality with blank email"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:58:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:58:48 IST" duration-ms="9185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login functionality with blank password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:58:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:58:58 IST" duration-ms="9935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the reset password functionality with valid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Forget Password Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:58:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:59:08 IST" duration-ms="10041" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the reset password functionality with invalid first name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Forget Password Page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at stepdefinition.TC07_invalid_firstname_forgot_password.system_displays_error_message_for_invalid_firstname(TC07_invalid_firstname_forgot_password.java:45)
+at ✽.system displays error message for invalid firstname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:59:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:59:18 IST" duration-ms="10105" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the reset password functionality with invalid last name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Forget Password Page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at stepdefinition.TC08_invalid_lastname_forgot_password.system_displays_error_message_for_invalid_lastname(TC08_invalid_lastname_forgot_password.java:44)
+at ✽.system displays error message  for invalid lastname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:59:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:59:28 IST" duration-ms="9822" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the reset password functionality with invalid address"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Forget Password Page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at stepdefinition.TC09_invalid_address_forgot_password.system_displays_error_message_for_invalid_address(TC09_invalid_address_forgot_password.java:44)
+at ✽.system displays error message for invalid address(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:36)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:59:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:59:38 IST" duration-ms="10657" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the reset password functionality with invalid city name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Forget Password Page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at stepdefinition.TC10_invalid_city_forgot_password.system_displays_error_message_for_invalid_city_name(TC10_invalid_city_forgot_password.java:44)
+at ✽.system displays error message for invalid city name(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:45)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:59:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:59:49 IST" duration-ms="10395" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the reset password functionality with invalid state"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Forget Password Page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at stepdefinition.TC11_invalid_state_forgot_password.system_displays_error_message_for_invalid_state(TC11_invalid_state_forgot_password.java:44)
+at ✽.system displays error message for invalid state(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:54)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:59:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:59:59 IST" duration-ms="10267" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the reset password functionality with invalid zip code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Forget Password Page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at stepdefinition.TC12_invalid_zipcode_forgot_password.system_displays_error_message_for_invalid_zip_code(TC12_invalid_zipcode_forgot_password.java:44)
+at ✽.system displays error message for invalid zip code(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:63)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:59:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T15:00:09 IST" duration-ms="10055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the reset password functionality with invalid ssn"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Forget Password Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T15:00:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T15:00:22 IST" duration-ms="12894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the open new checking/savings account functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Open New Account Page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T15:00:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T15:00:53 IST" duration-ms="30780" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the open multiple accounts account functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Open New Account Page]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at stepdefinition.TC15_open_multiple_accounts.system_displays_error_message(TC15_open_multiple_accounts.java:49)
+at ✽.system displays error message(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/3_openNewAccount.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T15:00:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T15:01:06 IST" duration-ms="13368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the account overview functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Check Account Overview]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T15:01:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T15:01:19 IST" duration-ms="13122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the account overview functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Check Transfer Fund]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T15:01:19 IST" name="tearDownClass" finished-at="2025-11-28T15:01:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner -->
+    </test> <!-- Test -->
+    <test started-at="2025-11-28T15:01:19 IST" name="reporter" finished-at="2025-11-28T15:01:19 IST" duration-ms="0">
+    </test> <!-- reporter -->
+    <test started-at="2025-11-28T15:01:19 IST" name="screenshot" finished-at="2025-11-28T15:01:19 IST" duration-ms="1">
+      <class name="utilities.reportGenerator">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:utilities.reportGenerator@123f1134]" started-at="2025-11-28T14:57:58 IST" name="beforeSuite" finished-at="2025-11-28T14:57:58 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:utilities.reportGenerator@123f1134]" started-at="2025-11-28T15:01:19 IST" name="afterSuite" finished-at="2025-11-28T15:01:20 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- utilities.reportGenerator -->
+    </test> <!-- screenshot -->
+  </suite> <!-- Suite -->
+</testng-results>
