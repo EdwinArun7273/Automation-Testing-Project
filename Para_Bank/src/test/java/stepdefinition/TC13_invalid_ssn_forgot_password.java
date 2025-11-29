@@ -1,5 +1,6 @@
 package stepdefinition;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
@@ -8,6 +9,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObjects.forgetPassword;
 import utilities.reportGenerator;
 import utilities.screenshot;
@@ -29,19 +31,20 @@ public class TC13_invalid_ssn_forgot_password extends reportGenerator
 	{
 		logger = extent.startTest("Test Case 13: User enters invalid ssn in forget password page");
 		boolean sts = fr.validateData();
-		if(sts == true)
+		try
 		{
+			assertEquals(sts, false, "Reset Password Failed");
 			logger.log(LogStatus.PASS, "Test Case 13 : User enters invalid ssn in forget password page");
 			System.out.println("Test case 13 passed");
-			assertTrue(true);
 		}
-		else
+		catch(AssertionError e)
 		{
-			logger.log(LogStatus.FAIL, "Test Case 13 : User enters invalid ssn in forget password page");
-			System.out.println("Test case 13 failed");
 			String tcn = "User enters invalid ssn in forget password page";
 			screenshot.takeScreenshot(tcn);
-			assertTrue(false);
+			logger.log(LogStatus.FAIL, "Test Case 13 : User enters invalid ssn in forget password page");
+			System.out.println("Test case 13 failed");
+			Allure.addAttachment("Screenshot Taken", e.getMessage());
+			throw e;
 		}
 		fr.closeForgetPasswordPage();
 		extent.endTest(logger);

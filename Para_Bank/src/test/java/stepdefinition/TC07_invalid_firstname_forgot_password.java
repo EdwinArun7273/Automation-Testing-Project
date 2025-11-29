@@ -30,13 +30,13 @@ public class TC07_invalid_firstname_forgot_password extends reportGenerator
 		{
 			logger = extent.startTest("Test Case 7: User enters invalid firstname in forget password page");
 			boolean sts = fr.validateData();
-			if(sts == true)
+			try
 			{
+				assertTrue(sts, "Reset Password Passed");
 				logger.log(LogStatus.PASS, "Test Case 7 : User enters invalid firstname in forget password page");
 				System.out.println("Test case 7 passed");
-				assertTrue(true);
 			}
-			else
+			catch(AssertionError e)
 			{
 				logger.log(LogStatus.FAIL, "Test Case 7 : User enters invalid firstname in forget password page");
 				System.out.println("Test case 7 failed");

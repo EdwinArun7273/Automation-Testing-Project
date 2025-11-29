@@ -8,6 +8,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObjects.login;
 import utilities.reportGenerator;
 import utilities.screenshot;
@@ -28,19 +29,21 @@ login lo = new login(hooks.driver);
 	{
 		logger = extent.startTest("Test Case 2: User logs in with invalid password");
 		boolean sts = lo.validateLogin();
-		if(sts == true)
+		try
 		{
+			assertTrue(sts, "Login Success");
 			logger.log(LogStatus.PASS, "Test Case 3 : User logs in with invalid password");
-			assertTrue(true);
 			System.out.println("Test case 3 passed");
+			Allure.step("Login with valid email and invalid password: PASSED");
 		}
-		else
+		catch(AssertionError e)
 		{
-			logger.log(LogStatus.FAIL, "Test Case 3 : User logs in with invalid password");
-			System.out.println("Test case 3 failed");
 			String tcn = "User logs in with invalid password";
 			screenshot.takeScreenshot(tcn);
-			assertTrue(false);
+			logger.log(LogStatus.FAIL, "Test Case 3 : User logs in with invalid password");
+			System.out.println("Test case 3 failed");
+			Allure.addAttachment("Screenshot Taken", e.getMessage());
+			throw e;
 		}
 		lo.closeLoginPage();
 		extent.endTest(logger);

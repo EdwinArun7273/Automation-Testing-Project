@@ -8,6 +8,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObjects.forgetPassword;
 import utilities.reportGenerator;
 import utilities.screenshot;
@@ -29,19 +30,20 @@ public class TC09_invalid_address_forgot_password extends reportGenerator
 	{
 		logger = extent.startTest("Test Case 9: User enters invalid address in forget password page");
 		boolean sts = fr.validateData();
-		if(sts == true)
+		try
 		{
+			assertTrue(sts, "Reset Password Passed");
 			logger.log(LogStatus.PASS, "Test Case 9 : User enters invalid address in forget password page");
 			System.out.println("Test case 9 passed");
-			assertTrue(true);
 		}
-		else
+		catch(AssertionError e)
 		{
-			logger.log(LogStatus.FAIL, "Test Case 9 : User enters invalid address in forget password page");
-			System.out.println("Test case 9 failed");
 			String tcn = "User enters invalid address in forget password page";
 			screenshot.takeScreenshot(tcn);
-			assertTrue(false);
+			logger.log(LogStatus.FAIL, "Test Case 9 : User enters invalid address in forget password page");
+			System.out.println("Test case 9 failed");
+			Allure.addAttachment("Screenshot Taken", e.getMessage());
+			throw e;
 		}
 		fr.closeForgetPasswordPage();
 		extent.endTest(logger);

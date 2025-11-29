@@ -7,6 +7,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObjects.login;
 import utilities.reportGenerator;
 import utilities.screenshot;
@@ -25,21 +26,23 @@ login lo = new login(hooks.driver);
 	@Then("system displays error message for blank username")
 	public void system_displays_error_message_for_blank_username() throws IOException 
 	{
-		logger = extent.startTest("Test Case 2: User logs in with invalid password");
+		logger = extent.startTest("Test Case 2: User logs in with blank username");
 		boolean sts = lo.validateLogin();
-		if(sts == true)
+		try
 		{
-			logger.log(LogStatus.PASS, "Test Case 4 : User logs in with invalid password");
-			assertTrue(true);
+			assertTrue(sts, "Login Success");
+			logger.log(LogStatus.PASS, "Test Case 4 : User logs in with blank username");
 			System.out.println("Test case 4 passed");
+			Allure.step("Login with blank username: PASSED");
 		}
-		else
+		catch(AssertionError e)
 		{
-			logger.log(LogStatus.FAIL, "Test Case 4 : User logs in with invalid password");
-			System.out.println("Test case 4 failed");
-			String tcn = "User logs in with invalid password";
+			String tcn = "User logs in with blank username";
 			screenshot.takeScreenshot(tcn);
-			assertTrue(false);
+			logger.log(LogStatus.FAIL, "Test Case 4 : User logs in with blank username");
+			System.out.println("Test case 4 failed");
+			Allure.addAttachment("Screenshot Taken", e.getMessage());
+			throw e;
 		}
 		lo.closeLoginPage();
 		extent.endTest(logger);

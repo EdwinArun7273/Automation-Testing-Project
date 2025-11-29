@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="17" passed="10" failed="7" skipped="0">
+<testng-results ignored="0" total="17" passed="9" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-28T14:57:58 IST" name="Suite" finished-at="2025-11-28T15:01:19 IST" duration-ms="201234">
+  <suite started-at="2025-11-29T15:07:27 IST" name="Suite" finished-at="2025-11-29T15:10:54 IST" duration-ms="206462">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-11-28T14:57:58 IST" name="Test" finished-at="2025-11-28T15:01:19 IST" duration-ms="201167">
+    <test started-at="2025-11-29T15:07:27 IST" name="Test" finished-at="2025-11-29T15:10:54 IST" duration-ms="206359">
       <class name="testrunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:57:58 IST" name="setUpClass" finished-at="2025-11-28T14:57:58 IST" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:07:27 IST" name="setUpClass" finished-at="2025-11-29T15:07:28 IST" duration-ms="476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:57:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:58:09 IST" duration-ms="10792" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:07:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:07:38 IST" duration-ms="10635" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:58:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:58:19 IST" duration-ms="9442" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:07:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:07:48 IST" duration-ms="9503" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:58:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:58:29 IST" duration-ms="10218" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:07:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:07:57 IST" duration-ms="9003" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:58:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:58:39 IST" duration-ms="9766" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:07:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:08:07 IST" duration-ms="9946" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:58:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:58:48 IST" duration-ms="9185" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:08:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:08:16 IST" duration-ms="8795" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,7 +94,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:58:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:58:58 IST" duration-ms="9935" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:08:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:08:26 IST" duration-ms="10308" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -110,7 +110,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:58:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:59:08 IST" duration-ms="10041" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:08:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:08:37 IST" duration-ms="10536" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -123,25 +123,29 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid firstname in forget password page.jpeg (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at org.testng.Assert.assertTrue(Assert.java:53)
-at stepdefinition.TC07_invalid_firstname_forgot_password.system_displays_error_message_for_invalid_firstname(TC07_invalid_firstname_forgot_password.java:45)
-at ✽.system displays error message for invalid firstname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:18)
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid firstname in forget password page.jpeg (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+at utilities.screenshot.takeScreenshot(screenshot.java:24)
+at stepdefinition.TC07_invalid_firstname_forgot_password.system_displays_error_message_for_invalid_firstname(TC07_invalid_firstname_forgot_password.java:44)
+at ✽.system displays error message for invalid firstname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:18)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:59:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:59:18 IST" duration-ms="10105" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:08:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:08:47 IST" duration-ms="10118" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -154,25 +158,29 @@ at ✽.system displays error message for invalid firstname(file:///C:/Users/Admi
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid lastname in forget password page.jpeg (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at org.testng.Assert.assertTrue(Assert.java:53)
-at stepdefinition.TC08_invalid_lastname_forgot_password.system_displays_error_message_for_invalid_lastname(TC08_invalid_lastname_forgot_password.java:44)
-at ✽.system displays error message  for invalid lastname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:27)
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid lastname in forget password page.jpeg (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+at utilities.screenshot.takeScreenshot(screenshot.java:24)
+at stepdefinition.TC08_invalid_lastname_forgot_password.system_displays_error_message_for_invalid_lastname(TC08_invalid_lastname_forgot_password.java:42)
+at ✽.system displays error message  for invalid lastname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:27)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:59:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:59:28 IST" duration-ms="9822" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:08:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:08:58 IST" duration-ms="10909" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -185,25 +193,29 @@ at ✽.system displays error message  for invalid lastname(file:///C:/Users/Admi
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid address in forget password page.jpeg (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at org.testng.Assert.assertTrue(Assert.java:53)
-at stepdefinition.TC09_invalid_address_forgot_password.system_displays_error_message_for_invalid_address(TC09_invalid_address_forgot_password.java:44)
-at ✽.system displays error message for invalid address(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:36)
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid address in forget password page.jpeg (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+at utilities.screenshot.takeScreenshot(screenshot.java:24)
+at stepdefinition.TC09_invalid_address_forgot_password.system_displays_error_message_for_invalid_address(TC09_invalid_address_forgot_password.java:42)
+at ✽.system displays error message for invalid address(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:36)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:59:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:59:38 IST" duration-ms="10657" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:08:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:09:08 IST" duration-ms="10441" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -216,25 +228,29 @@ at ✽.system displays error message for invalid address(file:///C:/Users/Admini
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid city in forget password page.jpeg (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at org.testng.Assert.assertTrue(Assert.java:53)
-at stepdefinition.TC10_invalid_city_forgot_password.system_displays_error_message_for_invalid_city_name(TC10_invalid_city_forgot_password.java:44)
-at ✽.system displays error message for invalid city name(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:45)
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid city in forget password page.jpeg (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+at utilities.screenshot.takeScreenshot(screenshot.java:24)
+at stepdefinition.TC10_invalid_city_forgot_password.system_displays_error_message_for_invalid_city_name(TC10_invalid_city_forgot_password.java:42)
+at ✽.system displays error message for invalid city name(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:45)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:59:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:59:49 IST" duration-ms="10395" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:09:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:09:18 IST" duration-ms="10397" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -247,25 +263,29 @@ at ✽.system displays error message for invalid city name(file:///C:/Users/Admi
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid state in forget password page.jpeg (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at org.testng.Assert.assertTrue(Assert.java:53)
-at stepdefinition.TC11_invalid_state_forgot_password.system_displays_error_message_for_invalid_state(TC11_invalid_state_forgot_password.java:44)
-at ✽.system displays error message for invalid state(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:54)
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid state in forget password page.jpeg (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+at utilities.screenshot.takeScreenshot(screenshot.java:24)
+at stepdefinition.TC11_invalid_state_forgot_password.system_displays_error_message_for_invalid_state(TC11_invalid_state_forgot_password.java:42)
+at ✽.system displays error message for invalid state(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:54)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:59:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T14:59:59 IST" duration-ms="10267" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:09:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:09:29 IST" duration-ms="10496" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -278,25 +298,29 @@ at ✽.system displays error message for invalid state(file:///C:/Users/Administ
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid zip code in forget password page.jpeg (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at org.testng.Assert.assertTrue(Assert.java:53)
-at stepdefinition.TC12_invalid_zipcode_forgot_password.system_displays_error_message_for_invalid_zip_code(TC12_invalid_zipcode_forgot_password.java:44)
-at ✽.system displays error message for invalid zip code(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:63)
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid zip code in forget password page.jpeg (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+at utilities.screenshot.takeScreenshot(screenshot.java:24)
+at stepdefinition.TC12_invalid_zipcode_forgot_password.system_displays_error_message_for_invalid_zip_code(TC12_invalid_zipcode_forgot_password.java:42)
+at ✽.system displays error message for invalid zip code(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:63)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T14:59:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T15:00:09 IST" duration-ms="10055" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:09:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:09:40 IST" duration-ms="10612" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -309,10 +333,29 @@ at ✽.system displays error message for invalid zip code(file:///C:/Users/Admin
               </value>
             </param>
           </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid ssn in forget password page.jpeg (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid ssn in forget password page.jpeg (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+at utilities.screenshot.takeScreenshot(screenshot.java:24)
+at stepdefinition.TC13_invalid_ssn_forgot_password.system_displays_error_message_for_invalid_ssn(TC13_invalid_ssn_forgot_password.java:43)
+at ✽.system displays error message for invalid ssn(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:72)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T15:00:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T15:00:22 IST" duration-ms="12894" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:09:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:09:54 IST" duration-ms="14130" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -328,7 +371,7 @@ at ✽.system displays error message for invalid zip code(file:///C:/Users/Admin
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T15:00:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T15:00:53 IST" duration-ms="30780" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:09:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:10:26 IST" duration-ms="32857" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -341,25 +384,29 @@ at ✽.system displays error message for invalid zip code(file:///C:/Users/Admin
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User opens multiple new new account.jpeg (The system cannot find the path specified)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at org.testng.Assert.assertTrue(Assert.java:53)
-at stepdefinition.TC15_open_multiple_accounts.system_displays_error_message(TC15_open_multiple_accounts.java:49)
-at ✽.system displays error message(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/3_openNewAccount.feature:17)
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User opens multiple new new account.jpeg (The system cannot find the path specified)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:210)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+at utilities.screenshot.takeScreenshot(screenshot.java:24)
+at stepdefinition.TC15_open_multiple_accounts.system_displays_error_message(TC15_open_multiple_accounts.java:47)
+at ✽.system displays error message(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/3_openNewAccount.feature:17)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T15:00:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T15:01:06 IST" duration-ms="13368" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:10:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:10:40 IST" duration-ms="13384" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -375,7 +422,7 @@ at ✽.system displays error message(file:///C:/Users/Administrator/Documents/Se
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T15:01:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-28T15:01:19 IST" duration-ms="13122" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:10:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-11-29T15:10:54 IST" duration-ms="13653" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -391,21 +438,21 @@ at ✽.system displays error message(file:///C:/Users/Administrator/Documents/Se
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner@44a664f2]" started-at="2025-11-28T15:01:19 IST" name="tearDownClass" finished-at="2025-11-28T15:01:19 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner@5b94b04d]" started-at="2025-11-29T15:10:54 IST" name="tearDownClass" finished-at="2025-11-29T15:10:54 IST" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testrunner -->
     </test> <!-- Test -->
-    <test started-at="2025-11-28T15:01:19 IST" name="reporter" finished-at="2025-11-28T15:01:19 IST" duration-ms="0">
+    <test started-at="2025-11-29T15:10:54 IST" name="reporter" finished-at="2025-11-29T15:10:54 IST" duration-ms="0">
     </test> <!-- reporter -->
-    <test started-at="2025-11-28T15:01:19 IST" name="screenshot" finished-at="2025-11-28T15:01:19 IST" duration-ms="1">
+    <test started-at="2025-11-29T15:10:54 IST" name="screenshot" finished-at="2025-11-29T15:10:54 IST" duration-ms="0">
       <class name="utilities.reportGenerator">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:utilities.reportGenerator@123f1134]" started-at="2025-11-28T14:57:58 IST" name="beforeSuite" finished-at="2025-11-28T14:57:58 IST" duration-ms="171" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:utilities.reportGenerator@3c0be339]" started-at="2025-11-29T15:07:27 IST" name="beforeSuite" finished-at="2025-11-29T15:07:27 IST" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:utilities.reportGenerator@123f1134]" started-at="2025-11-28T15:01:19 IST" name="afterSuite" finished-at="2025-11-28T15:01:20 IST" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:utilities.reportGenerator@3c0be339]" started-at="2025-11-29T15:10:54 IST" name="afterSuite" finished-at="2025-11-29T15:10:54 IST" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

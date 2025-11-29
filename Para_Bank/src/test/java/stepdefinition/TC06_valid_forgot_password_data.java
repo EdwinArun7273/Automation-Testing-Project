@@ -1,5 +1,6 @@
 package stepdefinition;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
@@ -9,6 +10,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObjects.forgetPassword;
 import utilities.reportGenerator;
 import utilities.screenshot;
@@ -37,19 +39,20 @@ public class TC06_valid_forgot_password_data extends reportGenerator
 	{
 		logger = extent.startTest("Test Case 6: User enters valid data to retrive password");
 		boolean sts = fr.validateData();
-		if(sts == true)
+		try
 		{
-			logger.log(LogStatus.FAIL, "Test Case 6 : User enters valid data to retrive password");
-			System.out.println("Test case 6 failed");
-			String tcn = "User enters valid data to retrive password";
-			screenshot.takeScreenshot(tcn);
-			assertTrue(false);
-		}
-		else
-		{
+			assertEquals(sts, false, "Reset Password Failed");
 			logger.log(LogStatus.PASS, "Test Case 6 : User enters valid data to retrive password");
 			System.out.println("Test case 6 passed");
-			assertTrue(true);
+		}
+		catch(AssertionError e)
+		{
+			String tcn = "User enters valid data to retrive password";
+			screenshot.takeScreenshot(tcn);
+			logger.log(LogStatus.FAIL, "Test Case 6 : User enters valid data to retrive password");
+			System.out.println("Test case 6 failed");
+			Allure.addAttachment("Screenshot Taken", e.getMessage());
+			throw e;
 		}
 		fr.closeForgetPasswordPage();
 		extent.endTest(logger);

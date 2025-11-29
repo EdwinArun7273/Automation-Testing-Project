@@ -1,4 +1,5 @@
 package stepdefinition;
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
@@ -10,6 +11,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObjects.login;
 
 public class TC01_valid_login_data  extends reportGenerator{
@@ -32,19 +34,21 @@ public class TC01_valid_login_data  extends reportGenerator{
 	{
 		logger = extent.startTest("Test Case 1: User logs in with valid username and valid password");
 		boolean sts = lo.validateLogin();
-		if(sts == true)
+		try
 		{
-			logger.log(LogStatus.FAIL, "Test Case 1 : User logs in with valid username and valid password");
-			System.out.println("Test case 1 failed");
-			String tcn = "User logs in with valid username and valid password";
-			screenshot.takeScreenshot(tcn);
-			assertTrue(false);
-		}
-		else if(sts == false)
-		{
+			assertEquals(sts, false, "Login Failed");
 			logger.log(LogStatus.PASS, "Test Case 1 : User logs in with valid email and valid password");
 			System.out.println("Test case 1 passed");
-			assertTrue(true);
+			Allure.step("Login with valid email and valid password: PASSED");
+		}
+		catch(AssertionError e)
+		{
+			String tcn = "User logs in with valid username and valid password";
+			screenshot.takeScreenshot(tcn);
+			logger.log(LogStatus.FAIL, "Test Case 1 : User logs in with valid username and valid password");
+			System.out.println("Test case 1 failed");
+			Allure.addAttachment("Screenshot Taken", e.getMessage());
+			throw e;
 		}
 		lo.closeLoginPage();
 		extent.endTest(logger);

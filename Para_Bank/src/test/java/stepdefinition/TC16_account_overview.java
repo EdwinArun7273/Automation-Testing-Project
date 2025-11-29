@@ -9,6 +9,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObjects.accountOverview;
 import utilities.reportGenerator;
 import utilities.screenshot;
@@ -37,19 +38,20 @@ public class TC16_account_overview extends reportGenerator
 	{
 		logger = extent.startTest("Test Case 16: User enters account overview");
 		boolean sts = ao.validateData();
-		if(sts == true)
+		try
 		{
+			assertTrue(sts, "Account Overview Test Failed");
 			logger.log(LogStatus.PASS, "Test Case 16: User enters account overview");
 			System.out.println("Test case 16 passed");
-			assertTrue(true);
 		}
-		else
+		catch(AssertionError e)
 		{
-			logger.log(LogStatus.FAIL, "Test Case 16: User enters account overview");
-			System.out.println("Test case 16 failed");
 			String tcn = "User enters account overview";
 			screenshot.takeScreenshot(tcn);
-			assertTrue(false);
+			logger.log(LogStatus.FAIL, "Test Case 16: User enters account overview");
+			System.out.println("Test case 16 failed");
+			Allure.addAttachment("Screenshot Taken", e.getMessage());
+			throw e;
 		}
 		ao.closeAccountOverviewPage();
 		extent.endTest(logger);

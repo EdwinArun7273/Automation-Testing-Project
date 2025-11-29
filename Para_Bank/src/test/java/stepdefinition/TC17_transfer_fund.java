@@ -9,6 +9,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObjects.transferFund;
 import utilities.reportGenerator;
 import utilities.screenshot;
@@ -37,19 +38,20 @@ public class TC17_transfer_fund extends reportGenerator
 	{
 		logger = extent.startTest("Test Case 17: User transfers fund");
 		boolean sts = tf.validateData();
-		if(sts == true)
+		try
 		{
+			assertTrue(sts, "Account Overview Test Failed");
 			logger.log(LogStatus.PASS, "Test Case 17: User transfers fund");
 			System.out.println("Test case 17 passed");
-			assertTrue(true);
 		}
-		else
+		catch(AssertionError e)
 		{
-			logger.log(LogStatus.FAIL, "Test Case 17: User transfers fund");
-			System.out.println("Test case 17 failed");
 			String tcn = "User transfers fund";
 			screenshot.takeScreenshot(tcn);
-			assertTrue(false);
+			logger.log(LogStatus.FAIL, "Test Case 17: User transfers fund");
+			System.out.println("Test case 17 failed");
+			Allure.addAttachment("Screenshot Taken", e.getMessage());
+			throw e;
 		}
 		tf.closeTransferFundsPage();
 		extent.endTest(logger);

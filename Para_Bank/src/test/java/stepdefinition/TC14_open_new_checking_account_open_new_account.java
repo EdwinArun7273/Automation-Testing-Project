@@ -9,6 +9,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObjects.openNewAccount;
 import utilities.reportGenerator;
 import utilities.screenshot;
@@ -39,19 +40,21 @@ public class TC14_open_new_checking_account_open_new_account extends reportGener
 	{
 		logger = extent.startTest("Test Case 14: User opens new CHECKING account");
 		boolean sts = ona.validateData();
-		if(sts == true)
+		try
 		{
+			assertTrue(sts, "Open New Account Test Failed");
 			logger.log(LogStatus.PASS, "Test Case 14: User opens new CHECKING account");
 			System.out.println("Test case 14 passed");
 			assertTrue(true);
 		}
-		else
+		catch(AssertionError e)
 		{
-			logger.log(LogStatus.FAIL, "Test Case 14: User opens new CHECKING account");
-			System.out.println("Test case 14 failed");
 			String tcn = "User opens new CHECKING account";
 			screenshot.takeScreenshot(tcn);
-			assertTrue(false);
+			logger.log(LogStatus.FAIL, "Test Case 14: User opens new CHECKING account");
+			System.out.println("Test case 14 failed");
+			Allure.addAttachment("Screenshot Taken", e.getMessage());
+			throw e;
 		}
 		ona.closeOpenNewAccountPage();
 		extent.endTest(logger);

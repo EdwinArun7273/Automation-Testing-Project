@@ -57,7 +57,7 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 28 15:01:19 IST 2025</td>
+<td>Started on:</td><td>Sat Nov 29 15:10:54 IST 2025</td>
 </tr>
 <tr><td>Total time:</td><td>0 seconds (0 ms)</td>
 </tr><tr>
@@ -76,116 +76,228 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the reset password functionality with invalid first name", "Optional[Forget Password Page]"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at stepdefinition.TC07_invalid_firstname_forgot_password.system_displays_error_message_for_invalid_firstname(TC07_invalid_firstname_forgot_password.java:45)
-	at ✽.system displays error message for invalid firstname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:18)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace357291163", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace357291163'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at stepdefinition.TC07_invalid_firstname_forgot_password.system_displays_error_message_for_invalid_firstname(TC07_invalid_firstname_forgot_password.java:45)
-	at ✽.system displays error message for invalid firstname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:18)
+<td><div><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid firstname in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC07_invalid_firstname_forgot_password.system_displays_error_message_for_invalid_firstname(TC07_invalid_firstname_forgot_password.java:44)
+	at ✽.system displays error message for invalid firstname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:18)
+</pre></div><a href='#' onClick='toggleBox("stack-trace504355631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace504355631'><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid firstname in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC07_invalid_firstname_forgot_password.system_displays_error_message_for_invalid_firstname(TC07_invalid_firstname_forgot_password.java:44)
+	at ✽.system displays error message for invalid firstname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:18)
 </pre></div></td>
 <td>10</td>
-<td>testrunner@44a664f2</td></tr>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the reset password functionality with invalid last name", "Optional[Forget Password Page]"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at stepdefinition.TC08_invalid_lastname_forgot_password.system_displays_error_message_for_invalid_lastname(TC08_invalid_lastname_forgot_password.java:44)
-	at ✽.system displays error message  for invalid lastname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:27)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1568450200", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1568450200'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at stepdefinition.TC08_invalid_lastname_forgot_password.system_displays_error_message_for_invalid_lastname(TC08_invalid_lastname_forgot_password.java:44)
-	at ✽.system displays error message  for invalid lastname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:27)
+<td><div><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid lastname in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC08_invalid_lastname_forgot_password.system_displays_error_message_for_invalid_lastname(TC08_invalid_lastname_forgot_password.java:42)
+	at ✽.system displays error message  for invalid lastname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:27)
+</pre></div><a href='#' onClick='toggleBox("stack-trace216919586", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace216919586'><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid lastname in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC08_invalid_lastname_forgot_password.system_displays_error_message_for_invalid_lastname(TC08_invalid_lastname_forgot_password.java:42)
+	at ✽.system displays error message  for invalid lastname(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:27)
 </pre></div></td>
 <td>10</td>
-<td>testrunner@44a664f2</td></tr>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the reset password functionality with invalid address", "Optional[Forget Password Page]"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at stepdefinition.TC09_invalid_address_forgot_password.system_displays_error_message_for_invalid_address(TC09_invalid_address_forgot_password.java:44)
-	at ✽.system displays error message for invalid address(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:36)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace408543908", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace408543908'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at stepdefinition.TC09_invalid_address_forgot_password.system_displays_error_message_for_invalid_address(TC09_invalid_address_forgot_password.java:44)
-	at ✽.system displays error message for invalid address(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:36)
+<td><div><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid address in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC09_invalid_address_forgot_password.system_displays_error_message_for_invalid_address(TC09_invalid_address_forgot_password.java:42)
+	at ✽.system displays error message for invalid address(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:36)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1956244167", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1956244167'><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid address in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC09_invalid_address_forgot_password.system_displays_error_message_for_invalid_address(TC09_invalid_address_forgot_password.java:42)
+	at ✽.system displays error message for invalid address(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:36)
 </pre></div></td>
-<td>9</td>
-<td>testrunner@44a664f2</td></tr>
+<td>10</td>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the reset password functionality with invalid city name", "Optional[Forget Password Page]"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at stepdefinition.TC10_invalid_city_forgot_password.system_displays_error_message_for_invalid_city_name(TC10_invalid_city_forgot_password.java:44)
-	at ✽.system displays error message for invalid city name(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:45)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1134976216", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1134976216'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at stepdefinition.TC10_invalid_city_forgot_password.system_displays_error_message_for_invalid_city_name(TC10_invalid_city_forgot_password.java:44)
-	at ✽.system displays error message for invalid city name(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:45)
+<td><div><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid city in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC10_invalid_city_forgot_password.system_displays_error_message_for_invalid_city_name(TC10_invalid_city_forgot_password.java:42)
+	at ✽.system displays error message for invalid city name(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:45)
+</pre></div><a href='#' onClick='toggleBox("stack-trace515482607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace515482607'><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid city in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC10_invalid_city_forgot_password.system_displays_error_message_for_invalid_city_name(TC10_invalid_city_forgot_password.java:42)
+	at ✽.system displays error message for invalid city name(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:45)
 </pre></div></td>
 <td>10</td>
-<td>testrunner@44a664f2</td></tr>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the reset password functionality with invalid state", "Optional[Forget Password Page]"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at stepdefinition.TC11_invalid_state_forgot_password.system_displays_error_message_for_invalid_state(TC11_invalid_state_forgot_password.java:44)
-	at ✽.system displays error message for invalid state(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:54)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace880934808", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace880934808'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at stepdefinition.TC11_invalid_state_forgot_password.system_displays_error_message_for_invalid_state(TC11_invalid_state_forgot_password.java:44)
-	at ✽.system displays error message for invalid state(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:54)
+<td><div><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid state in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC11_invalid_state_forgot_password.system_displays_error_message_for_invalid_state(TC11_invalid_state_forgot_password.java:42)
+	at ✽.system displays error message for invalid state(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:54)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1452722471", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1452722471'><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid state in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC11_invalid_state_forgot_password.system_displays_error_message_for_invalid_state(TC11_invalid_state_forgot_password.java:42)
+	at ✽.system displays error message for invalid state(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:54)
 </pre></div></td>
 <td>10</td>
-<td>testrunner@44a664f2</td></tr>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the reset password functionality with invalid zip code", "Optional[Forget Password Page]"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at stepdefinition.TC12_invalid_zipcode_forgot_password.system_displays_error_message_for_invalid_zip_code(TC12_invalid_zipcode_forgot_password.java:44)
-	at ✽.system displays error message for invalid zip code(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:63)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1829287142", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1829287142'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at stepdefinition.TC12_invalid_zipcode_forgot_password.system_displays_error_message_for_invalid_zip_code(TC12_invalid_zipcode_forgot_password.java:44)
-	at ✽.system displays error message for invalid zip code(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/2_forgetPassword.feature:63)
+<td><div><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid zip code in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC12_invalid_zipcode_forgot_password.system_displays_error_message_for_invalid_zip_code(TC12_invalid_zipcode_forgot_password.java:42)
+	at ✽.system displays error message for invalid zip code(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:63)
+</pre></div><a href='#' onClick='toggleBox("stack-trace345142475", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace345142475'><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid zip code in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC12_invalid_zipcode_forgot_password.system_displays_error_message_for_invalid_zip_code(TC12_invalid_zipcode_forgot_password.java:42)
+	at ✽.system displays error message for invalid zip code(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:63)
 </pre></div></td>
 <td>10</td>
-<td>testrunner@44a664f2</td></tr>
+<td>testrunner@5b94b04d</td></tr>
+<tr>
+<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the reset password functionality with invalid ssn", "Optional[Forget Password Page]"</td>
+<td><div><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid ssn in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC13_invalid_ssn_forgot_password.system_displays_error_message_for_invalid_ssn(TC13_invalid_ssn_forgot_password.java:43)
+	at ✽.system displays error message for invalid ssn(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:72)
+</pre></div><a href='#' onClick='toggleBox("stack-trace467185608", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace467185608'><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid ssn in forget password page.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC13_invalid_ssn_forgot_password.system_displays_error_message_for_invalid_ssn(TC13_invalid_ssn_forgot_password.java:43)
+	at ✽.system displays error message for invalid ssn(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/2_forgetPassword.feature:72)
+</pre></div></td>
+<td>10</td>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the open multiple accounts account functionality", "Optional[Open New Account Page]"</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at stepdefinition.TC15_open_multiple_accounts.system_displays_error_message(TC15_open_multiple_accounts.java:49)
-	at ✽.system displays error message(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/3_openNewAccount.feature:17)
-... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1912769093", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1912769093'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertTrue(Assert.java:43)
-	at org.testng.Assert.assertTrue(Assert.java:53)
-	at stepdefinition.TC15_open_multiple_accounts.system_displays_error_message(TC15_open_multiple_accounts.java:49)
-	at ✽.system displays error message(file:///C:/Users/Administrator/Documents/Selenium%20Demo/capstone/Features/3_openNewAccount.feature:17)
+<td><div><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User opens multiple new new account.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC15_open_multiple_accounts.system_displays_error_message(TC15_open_multiple_accounts.java:47)
+	at ✽.system displays error message(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/3_openNewAccount.feature:17)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1920134737", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1920134737'><pre>java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User opens multiple new new account.jpeg (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:255)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:210)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:193)
+	at io.cucumber.messages.internal.com.google.common.io.Files$FileByteSink.openStream(Files.java:181)
+	at io.cucumber.messages.internal.com.google.common.io.ByteSource.copyTo(ByteSource.java:265)
+	at io.cucumber.messages.internal.com.google.common.io.Files.copy(Files.java:326)
+	at utilities.screenshot.takeScreenshot(screenshot.java:24)
+	at stepdefinition.TC15_open_multiple_accounts.system_displays_error_message(TC15_open_multiple_accounts.java:47)
+	at ✽.system displays error message(file:///C:/Users/Administrator/Documents/Selenium%20Demo/Para_Bank/Features/3_openNewAccount.feature:17)
 </pre></div></td>
-<td>30</td>
-<td>testrunner@44a664f2</td></tr>
+<td>32</td>
+<td>testrunner@5b94b04d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -198,52 +310,47 @@ function toggleAllBoxes() {
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the login functionality with valid details", "Optional[Login Page]"</td>
 <td></td>
 <td>10</td>
-<td>testrunner@44a664f2</td></tr>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the login functionality with invalid username", "Optional[Login Page]"</td>
 <td></td>
 <td>9</td>
-<td>testrunner@44a664f2</td></tr>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the login functionality with invalid password", "Optional[Login Page]"</td>
 <td></td>
-<td>10</td>
-<td>testrunner@44a664f2</td></tr>
+<td>9</td>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the login functionality with blank email", "Optional[Login Page]"</td>
 <td></td>
 <td>9</td>
-<td>testrunner@44a664f2</td></tr>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the login functionality with blank password", "Optional[Login Page]"</td>
 <td></td>
-<td>9</td>
-<td>testrunner@44a664f2</td></tr>
+<td>8</td>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the reset password functionality with valid details", "Optional[Forget Password Page]"</td>
 <td></td>
-<td>9</td>
-<td>testrunner@44a664f2</td></tr>
-<tr>
-<td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the reset password functionality with invalid ssn", "Optional[Forget Password Page]"</td>
-<td></td>
 <td>10</td>
-<td>testrunner@44a664f2</td></tr>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the open new checking/savings account functionality", "Optional[Open New Account Page]"</td>
 <td></td>
-<td>12</td>
-<td>testrunner@44a664f2</td></tr>
+<td>14</td>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the account overview functionality", "Optional[Check Account Overview]"</td>
 <td></td>
 <td>13</td>
-<td>testrunner@44a664f2</td></tr>
+<td>testrunner@5b94b04d</td></tr>
 <tr>
 <td title='testrunner.runScenario()'><b>runScenario</b><br>Test class: testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the account overview functionality", "Optional[Check Transfer Fund]"</td>
 <td></td>
 <td>13</td>
-<td>testrunner@44a664f2</td></tr>
+<td>testrunner@5b94b04d</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,25 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 202.082 s <<< FAILURE! - in TestSuite
-runScenario(testrunner)  Time elapsed: 10.045 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
+Tests run: 17, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 207.479 s <<< FAILURE! - in TestSuite
+runScenario(testrunner)  Time elapsed: 10.54 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid firstname in forget password page.jpeg (The system cannot find the path specified)
 
-runScenario(testrunner)  Time elapsed: 10.104 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
+runScenario(testrunner)  Time elapsed: 10.119 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid lastname in forget password page.jpeg (The system cannot find the path specified)
 
-runScenario(testrunner)  Time elapsed: 9.822 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
+runScenario(testrunner)  Time elapsed: 10.909 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid address in forget password page.jpeg (The system cannot find the path specified)
 
-runScenario(testrunner)  Time elapsed: 10.656 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
+runScenario(testrunner)  Time elapsed: 10.441 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid city in forget password page.jpeg (The system cannot find the path specified)
 
-runScenario(testrunner)  Time elapsed: 10.396 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
+runScenario(testrunner)  Time elapsed: 10.397 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid state in forget password page.jpeg (The system cannot find the path specified)
 
-runScenario(testrunner)  Time elapsed: 10.268 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
+runScenario(testrunner)  Time elapsed: 10.496 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid zip code in forget password page.jpeg (The system cannot find the path specified)
 
-runScenario(testrunner)  Time elapsed: 30.78 s  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
+runScenario(testrunner)  Time elapsed: 10.613 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User enters invalid ssn in forget password page.jpeg (The system cannot find the path specified)
+
+runScenario(testrunner)  Time elapsed: 32.856 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\Administrator\Documents\Selenium Demo\capstone\screenshots\User opens multiple new new account.jpeg (The system cannot find the path specified)
 

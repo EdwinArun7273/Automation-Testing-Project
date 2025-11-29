@@ -9,6 +9,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Allure;
 import pageObjects.openNewAccount;
 import utilities.reportGenerator;
 import utilities.screenshot;
@@ -34,19 +35,20 @@ public class TC15_open_multiple_accounts extends reportGenerator
 	{
 		logger = extent.startTest("Test Case 15: User opens multiple new account");
 		boolean sts = ona.validateData2();
-		if(sts == true)
+		try
 		{
+			assertTrue(sts, "Open Multiple New Accounts Test Failed");
 			logger.log(LogStatus.PASS, "Test Case 15: User opens multiple new new account");
 			System.out.println("Test case 15 passed");
-			assertTrue(true);
 		}
-		else
+		catch(AssertionError e)
 		{
-			logger.log(LogStatus.FAIL, "Test Case 15: User opens multiple new new account");
-			System.out.println("Test case 15 failed");
 			String tcn = "User opens multiple new new account";
 			screenshot.takeScreenshot(tcn);
-			assertTrue(false);
+			logger.log(LogStatus.FAIL, "Test Case 15: User opens multiple new new account");
+			System.out.println("Test case 15 failed");
+			Allure.addAttachment("Screenshot Taken", e.getMessage());
+			throw e;
 		}
 		ona.closeOpenNewAccountPage();
 		extent.endTest(logger);
